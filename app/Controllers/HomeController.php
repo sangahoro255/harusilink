@@ -5,7 +5,7 @@ class HomeController
 {
     public function index(): void
     {
-        view('home', ['title' => 'Karibu HarusiLink']);
+        redirect('/login');
     }
 
     public function about(): void
