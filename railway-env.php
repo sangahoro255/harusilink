@@ -14,4 +14,4 @@ foreach ($keys as $k) {
         $lines[] = $k . '="' . str_replace('"', '\"', $v) . '"';
     }
 }
-file_put_contents(_DIR_ . '/.env', implode("\n", $lines) . "\n");
+file_put_contents(__DIR__ . '/.env', implode("\n", $lines) . "\n");
