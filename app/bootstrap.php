@@ -7,8 +7,17 @@ function env(string $key, $default = null)
 {
     static $vars = null;
     if ($vars === null) {
-        $vars = parse_ini_file(BASE_PATH . '/.env', false, INI_SCANNER_RAW) ?: [];
+        $file = BASE_PATH . '/.env';
+        $vars = is_file($file)
+            ? (parse_ini_file($file, false, INI_SCANNER_RAW) ?: [])
+            : [];
     }
+
+    $system = getenv($key);
+    if ($system !== false && $system !== '') {
+        return $system;
+    }
+
     return $vars[$key] ?? $default;
 }
 
