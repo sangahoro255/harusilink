@@ -1,0 +1,24 @@
+.mode-banner{border-radius:12px;padding:12px 14px;margin-bottom:14px;font-size:.92rem;line-height:1.5}
+.mode-banner strong{display:block;margin-bottom:2px}
+.mode-banner.sim{background:#FFFAEB;border:1px solid #B54708;color:#7A2E0E}
+.mode-banner.live{background:#ECFDF3;border:1px solid #067647;color:#054F31}
+.progress{height:14px;border-radius:999px;background:#EEF0F4;overflow:hidden;margin:12px 0 4px}
+.progress span{display:block;height:100%;background:var(--gold);border-radius:999px}
+.form-card.wide{max-width:none}
+.form-card select{width:100%;min-height:48px;padding:0 12px;border:1px solid #D0D5DD;border-radius:10px;font-size:1rem;background:#fff}
+.form-card select:focus{outline:2px solid var(--gold);border-color:var(--gold)}
+.form-card h2{font-size:1.05rem;margin:0 0 8px;color:var(--navy)}
+.sub-title{font-size:1rem;color:var(--navy);margin:16px 0 6px}
+.spaced-card{margin-top:16px;margin-bottom:16px}
+.panel-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:12px}
+.panel-row form{margin:0}
+.panel-row .btn-outline,.panel-row .btn-link{min-height:44px}
+.check-col{width:40px}
+.check-col input{width:20px;min-height:0;height:20px}
+.table button[disabled],.btn[disabled]{opacity:.5;cursor:not-allowed}
+.debug-box{background:#F2F4F7;border-radius:10px;padding:10px;font-size:.8rem;white-space:pre-wrap;word-break:break-word;color:var(--danger)}
+.tag{margin-left:6px}
+@media (max-width:720px){
+  .table td.check-col{justify-content:flex-start}
+  .table td.check-col::before{content:none}
+}

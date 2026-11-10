@@ -1,0 +1,7 @@
+.qr-box{max-width:480px;margin:16px auto 0;background:#fff;border-radius:20px;padding:22px 24px;box-shadow:0 8px 28px rgba(11,31,58,.1);text-align:center}
+.qr-box h3{margin:0 0 4px;font-size:1.1rem;color:var(--navy)}
+.qr-box p{margin:0 0 10px;color:var(--muted)}
+.qr-img{display:block;width:240px;max-width:100%;height:auto;margin:14px auto;background:#fff;padding:10px;border:1px solid #EEF0F4;border-radius:14px}
+.qr-box .qr-seats{font-weight:600;color:var(--navy)}
+.qr-box .qr-tip{font-size:.85rem}
+.qr-download{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 18px;border:1px solid var(--navy);border-radius:10px;color:var(--navy);font-weight:700;text-decoration:none;background:#fff}

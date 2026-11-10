@@ -1,0 +1,31 @@
+.workspace{display:grid;grid-template-columns:230px minmax(0,1fr);gap:20px;max-width:1200px;margin:0 auto;padding:20px 16px;align-items:start}
+.ws-main{min-width:0}
+.ws-nav{background:#fff;border-radius:14px;box-shadow:0 4px 18px rgba(11,31,58,.06);padding:10px;position:sticky;top:12px}
+.ws-nav ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.ws-nav a,.ws-nav .soon{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;padding:0 12px;border-radius:10px;text-decoration:none;color:var(--navy);font-weight:600;font-size:.95rem}
+.ws-nav a:hover{background:var(--bg)}
+.ws-nav a.active{background:var(--gold-light)}
+.ws-nav .soon{color:#98A2B3;cursor:default}
+.tag{display:inline-block;font-size:.7rem;font-weight:600;background:#F2F4F7;color:var(--muted);padding:2px 8px;border-radius:999px}
+.ws-hero{background:#fff;border-radius:16px;padding:20px;margin-bottom:16px;box-shadow:0 8px 30px rgba(11,31,58,.08);border-top:4px solid var(--gold)}
+.ws-hero .cover{max-width:100%;margin-bottom:14px}
+.hero-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.hero-top h1{margin:0;text-align:left}
+.ws-hero .muted{margin:6px 0 0}
+.countdown{display:inline-block;margin-top:12px;padding:6px 14px;border-radius:999px;background:var(--navy);color:#fff;font-weight:600;font-size:.9rem}
+.ws-main .stat-grid{margin-top:0}
+.ws-main .hint{margin:10px 0 20px}
+.checklist-card h2{font-size:1.05rem;margin:0 0 8px;color:var(--navy)}
+.checklist{list-style:none;margin:0;padding:0}
+.checklist li{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid #EEF0F4}
+.checklist li:last-child{border-bottom:0}
+.checklist .text{flex:1}
+.checklist .mark{width:24px;height:24px;border-radius:50%;border:2px solid #D0D5DD;display:inline-flex;align-items:center;justify-content:center;font-size:.8rem;color:#fff;flex:0 0 auto}
+.checklist .done .mark{background:var(--success);border-color:var(--success)}
+.checklist .done .text{color:var(--muted)}
+@media (max-width:860px){
+  .workspace{grid-template-columns:1fr;gap:12px;padding-top:12px}
+  .ws-nav{position:static;padding:6px}
+  .ws-nav ul{flex-direction:row;overflow-x:auto;gap:4px}
+  .ws-nav a,.ws-nav .soon{white-space:nowrap;flex:0 0 auto}
+}

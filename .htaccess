@@ -1,0 +1,6 @@
+# HarusiLink - ulinzi wa faili za ndani (Apache / XAMPP)
+Options -Indexes
+
+<FilesMatch "^(\.env(\..*)?|\.gitignore|composer\.(json|lock)|README\.md|serve\.(bat|sh))$">
+    Require all denied
+</FilesMatch>

@@ -1,0 +1,13 @@
+.summary-line{color:var(--muted);margin:4px 0 0}
+.row-actions{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.row-actions form{margin:0}
+.row-actions .btn-outline{min-height:36px}
+.table .sub{display:block;color:var(--muted);font-size:.82rem}
+.head-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.head-actions .btn-outline{min-height:44px}
+.form-card h2{font-size:1.05rem;margin:0 0 8px;color:var(--navy)}
+.form-card h2.spaced{margin-top:22px}
+.steps{margin:0 0 12px;padding-left:20px}
+.steps li{margin:6px 0}
+.code{font-family:ui-monospace,Consolas,monospace;background:#F2F4F7;padding:1px 6px;border-radius:6px;font-size:.9em}
+.alert + .table-wrap{margin-bottom:12px}

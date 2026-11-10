@@ -1,0 +1,19 @@
+{
+    "name": "harusilink/harusilink",
+    "description": "HarusiLink - mfumo wa mialiko ya harusi, RSVP, QR check-in na michango",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "ext-mbstring": "*",
+        "ext-fileinfo": "*",
+        "ext-gd": "*"
+    },
+    "suggest": {
+        "bacon/bacon-qr-code": "Hiari: kisimbaji cha QR cha nje. Bila hiyo, kisimbaji kilichojengwa ndani (App\\Services\\SimpleQr) kinatumika."
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
